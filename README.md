@@ -83,10 +83,10 @@ bmk_leaderboard/
 [在此处添加引用信息，例如：]
 如果你在研究中使用了此 Benchmark 或网站，请引用：
 ```bibtex
-@misc{yourbenchmark2024,
+@misc{yourbenchmark2025,
   title={Storytelling Benchmark Results Viewer},
   author={Your Name/Team},
-  year={2024},
+  year={2025},
   howpublished={\url{Your Project URL}},
 }
 ```
