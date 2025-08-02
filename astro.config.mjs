@@ -6,7 +6,6 @@ import autoprefixer from 'autoprefixer';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://aaai26-19745.github.io',
-  base: '/aaai26-19745.github.io',
   // 使用 vite 配置直接处理 tailwind
   vite: {
     css: {
