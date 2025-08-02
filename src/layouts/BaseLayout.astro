@@ -1,5 +1,6 @@
 ---
-// src/layouts/BaseLayout.astro
+# src/layouts/BaseLayout.astro
+---
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css'; // 我们稍后会创建这个文件，或者直接使用 Tailwind 的 base/components/utilities
@@ -21,7 +22,6 @@ const base = import.meta.env.BASE_URL;
 // This explicit construction is a fallback if auto-resolution isn't working as expected in preview.
 const mainJsPathWithBase = `${base.replace(/\/$/, '')}/js/main.js`.replace(/\/\//g, '/'); 
 const faviconPathWithBase = `${base.replace(/\/$/, '')}/favicon.png`.replace(/\/\//g, '/');
----
 <!DOCTYPE html>
 <html lang="en"> {/* The lang attribute will be dynamically set by main.js */}
 <head>
